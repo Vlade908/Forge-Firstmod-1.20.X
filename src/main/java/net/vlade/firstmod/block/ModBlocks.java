@@ -25,29 +25,35 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)
-                    .strength(6f).requiresCorrectToolForDrops()
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()
             ));
 
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)
-                    .strength(6f).requiresCorrectToolForDrops()
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()
             ));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE)
-                    .requiresCorrectToolForDrops().strength(5f), UniformInt.of(2, 6)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
             ));
     public static final RegistryObject<Block> NETHERRACK_SAPPHIRE_ORE = registerBlock("netherrack_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE)
-                    .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
             ));
     public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE)
-                    .strength(8f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)
+                    .strength(8f)
+                    .requiresCorrectToolForDrops()
             ));
     public static final RegistryObject<Block> ENDSTONE_SAPPHIRE_ORE = registerBlock("endstone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE)
-                    .strength(9f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)
+                    .strength(9f)
+                    .requiresCorrectToolForDrops()
             ));
 
 
