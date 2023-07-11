@@ -1,0 +1,16 @@
+{
+  "item.firstmod.sapphire": "Sapphire",
+  "item.firstmod.raw_sapphire": "Raw Sapphire",
+
+  "block.firstmod.sapphire_block": "Block of Sapphire",
+  "block.firstmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.firstmod.sapphire_ore": "Sapphire Ore",
+  "block.firstmod.netherrack_sapphire_ore": "Nether Sapphire Ore",
+  "block.firstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.firstmod.endstone_sapphire_ore": "End Sapphire Ore",
+
+
+
+  "creativetab.first_tab": "First Mod 1 Tab"
+
+}

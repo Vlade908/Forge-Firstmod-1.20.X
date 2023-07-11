@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:sapphire_ore",
+    "firstmod:sapphire_block",
+    "firstmod:raw_sapphire_block",
+    "firstmod:deepslate_sapphire_ore",
+    "firstmod:netherrack_sapphire_ore",
+    "firstmod:endstone_sapphire_ore"
+  ]
+}
